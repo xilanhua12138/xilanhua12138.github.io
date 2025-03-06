@@ -38,24 +38,24 @@ I am a second-year graduate student at Shanghai Jiao Tong University, School of 
 
 # 💼Internship Experience
 
-### Zulution AI | AIGC Algorithm Engineer (2024.06 - Present)
-Research on Story-based Image Generation Algorithms
+- **Zulution AI** | AIGC Algorithm Engineer (2024.06 - Present)
+  Research on Story-based Image Generation Algorithms
 
-### ArcSoft | CV Algorithm Engineer (2023.12 - 2024.03)
-Research on Generative Algorithm Preprocessing
+- **ArcSoft** | CV Algorithm Engineer (2023.12 - 2024.03)
+  Research on Generative Algorithm Preprocessing
 
-### Deptrum | CV Algorithm Engineer (2022.06 - 2022.09)
-Research on Face 3D Reconstruction Algorithms
+- **Deptrum** | CV Algorithm Engineer (2022.06 - 2022.09)
+  Research on Face 3D Reconstruction Algorithms
 
 
 # 🏆Awards and Honors
 
-- National Graduate Mathematical Modeling Competition: National First Prize (1%), Huawei Second Prize (2023)
-- National College Student Mathematical Modeling Competition: National First Prize (2021)
-- CODALAB Competition AutoCast: Ranked 5th on Leaderboard (2023)
-- SJTU University-level Scholarship (Class B) (2020)
-- SJTU University-level Scholarship (Class C) (2021)
-- Junzheng Scholar (2021)
+- **National Graduate Mathematical Modeling Competition**: National First Prize (1%), Huawei Second Prize (2023)
+- **National College Student Mathematical Modeling Competition**: National First Prize (2021)
+- **CODALAB Competition AutoCast**: Ranked 5th on Leaderboard (2023)
+- **SJTU University-level Scholarship (Class B)**: (2020)
+- **SJTU University-level Scholarship (Class C)**: (2021)
+- **Junzheng Scholar**: (2021)
 
 # 💻Skills
 

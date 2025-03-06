@@ -11,7 +11,7 @@ I am a second-year graduate student at Shanghai Jiao Tong University, School of 
 
 # 🎓Education
 
-- **Shanghai Jiao Tong University** (2023.9 - 2025.6)  
+- **Shanghai Jiao Tong University** (2023.9 - 2026.3)  
   Master | School of Mechanical Engineering  
   Research on Image Generative Models and 3D Flow Field Reconstruction
 

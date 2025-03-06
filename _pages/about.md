@@ -7,8 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-# About Me
-
 I am a second-year graduate student at Shanghai Jiao Tong University, School of Mechanical Engineering. My main research areas are 3D reconstruction and image generation models. Currently, I am working as an image generation algorithm intern at Zulution AI.
 
 # 🎓Education

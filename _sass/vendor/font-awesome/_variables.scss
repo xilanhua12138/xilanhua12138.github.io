@@ -2525,6 +2525,8 @@ $fa-var-intercom: \f7af;
 $fa-var-zhihu: \f63f;
 $fa-var-xiaohongshu: \f23e; // 添加小红书变量（使用示例Unicode，实际值可能不同）
 $fa-var-korvue: \f42f;
+$fa-var-pix: \e43a;
+$fa-var-steam-symbol: \f3f6;
 
 $fa-icons: (
   "0": $fa-var-0,
@@ -4481,6 +4483,6 @@ $fa-icons: (
   "level-up-alt": $fa-var-level-up-alt,
   "xiaohongshu": $fa-var-xiaohongshu, // 添加小红书到图标映射
   "korvue": $fa-var-korvue,
-  "pix": $fa-var-pixiv,
+  "pix": $fa-var-pix,
   "steam-symbol": $fa-var-steam-symbol,
 );

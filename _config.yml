@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Shui Yunhao
 title_separator          : "-"
 name                     : &name "Shui Yunhao"
-description              : &description ""
+description              : &description "personal description"
 url                      : https://xilanhua12138.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "xilanhua12138/xilanhua12138.github.io"

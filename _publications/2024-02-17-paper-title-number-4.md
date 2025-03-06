@@ -1,5 +1,5 @@
 ---
-title: "Paper Title Number 4"
+title: "Diffusion-NPO: Negative Preference Optimization for Better Preference Aligned Generation of Diffusion Models"
 collection: publications
 category: conferences
 permalink: /publication/2024-02-17-paper-title-number-4

@@ -28,10 +28,6 @@ I am a second-year graduate student at Shanghai Jiao Tong University, School of 
   Fu-Yun Wang, **<u>Yunhao Shui</u>**, Jingtan Piao, Keqiang Sun, Hongsheng Li  
   ICLR. 2025
 
-- **"Towards Rich-Motion Human Image Generation."**  
-  Wangxuekuan, **<u>Yunhao Shui</u>**, Haoyu Zheng, Haoyu Yin, Yuqiu Huang, Junru Qiu, Feng Qiu, Keqiang Sun, Hongsheng Li  
-  Under Review. 2024
-
 - **"ECNet: Effective Controllable Text-to-Image Diffusion Models."**  
   Sicheng Li, Zhixin Lai, Keqiang Sun, Xiaoshi Wu, **<u>Yunhao Shui</u>**, Feng Qiu, Haoran Xie, Kazunori Miyata, Hongsheng Li  
   Under Review. 2024
@@ -67,3 +63,4 @@ I am a second-year graduate student at Shanghai Jiao Tong University, School of 
 - **Email**: xilanhua12138@sjtu.edu.cn
 - **Mobile**: 187-8017-0056
 - **Location**: Shanghai, China
+x

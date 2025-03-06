@@ -11,7 +11,7 @@ redirect_from:
 
 I am a second-year graduate student at Shanghai Jiao Tong University, School of Mechanical Engineering. My main research areas are 3D reconstruction and image generation models. Currently, I am working as an image generation algorithm intern at Zulution AI.
 
-## Education
+# 🎓Education
 
 - **Shanghai Jiao Tong University** (2023.9 - 2025.6)  
   Master | School of Mechanical Engineering  
@@ -20,7 +20,7 @@ I am a second-year graduate student at Shanghai Jiao Tong University, School of 
 - **Shanghai Jiao Tong University** (2019.9 - 2023.9)  
   Bachelor | School of Mechanical Engineering  
 
-## Publications
+# 📖Publications
 
 - **"FlameGS: Reconstruct flame light field via Gaussian Splatting."**  
   **<u>Yunhao Shui</u>**, Fuhao Zhang, Can Gao, Hao Xue, Zhiyin Ma, Gang Xuna, Xuesong Li  
@@ -38,7 +38,7 @@ I am a second-year graduate student at Shanghai Jiao Tong University, School of 
   Sicheng Li, Zhixin Lai, Keqiang Sun, Xiaoshi Wu, **<u>Yunhao Shui</u>**, Feng Qiu, Haoran Xie, Kazunori Miyata, Hongsheng Li  
   Under Review. 2024
 
-## Internship Experience
+# 💼Internship Experience
 
 ### Zulution AI | AIGC Algorithm Engineer (2024.06 - Present)
 Research on Story-based Image Generation Algorithms
@@ -50,7 +50,7 @@ Research on Generative Algorithm Preprocessing
 Research on Face 3D Reconstruction Algorithms
 
 
-## Awards and Honors
+# 🏆Awards and Honors
 
 - National Graduate Mathematical Modeling Competition: National First Prize (1%), Huawei Second Prize (2023)
 - National College Student Mathematical Modeling Competition: National First Prize (2021)
@@ -59,12 +59,12 @@ Research on Face 3D Reconstruction Algorithms
 - SJTU University-level Scholarship (Class C) (2021)
 - Junzheng Scholar (2021)
 
-## Skills
+# 💻Skills
 
 - **Programming Languages**: Proficient in Python, PyTorch
 - **Knowledge Domains**: Image Diffusion Models, Video Diffusion Models, 3D Gaussian Splatting, NeRF
 
-## Contact
+# 📧Contact
 
 - **Email**: xilanhua12138@sjtu.edu.cn
 - **Mobile**: 187-8017-0056

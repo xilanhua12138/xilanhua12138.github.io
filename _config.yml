@@ -50,7 +50,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -73,8 +73,9 @@ author:
   wikipedia        : # Username
   xing             : # Username
   youtube          : # Username
-  zhihu            : # Username
-
+  zhihu            : https://www.zhihu.com/people/xi-lan-hua-6-92
+  xiaohongshu      : https://www.xiaohongshu.com/user/profile/5fe19a50000000000101ce38
+  
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   books:

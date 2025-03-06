@@ -22,15 +22,23 @@ I am a second-year graduate student at Shanghai Jiao Tong University, School of 
 
 ## Publications
 
-- Yunhao Shui, Fuhao Zhang, Can Gao, Hao Xue, Zhiyin Ma, Gang Xuna, Xuesong Li. "FlameGS: Reconstruct flame light field via Gaussian Splatting." International Conference on Signal Processing and Neural Network Applications (SPNNA). 2024
+- **"FlameGS: Reconstruct flame light field via Gaussian Splatting."**  
+  **<u>Yunhao Shui</u>**, Fuhao Zhang, Can Gao, Hao Xue, Zhiyin Ma, Gang Xuna, Xuesong Li  
+  International Conference on Signal Processing and Neural Network Applications (SPNNA). 2024
 
-- Fu-Yun Wang, Yunhao Shui, Jingtan Piao, Keqiang Sun, Hongsheng Li, "Diffusion-NPO: Negative Preference Optimization for Better Preference Aligned Generation of Diffusion Models." ICLR. 2025
+- **"Diffusion-NPO: Negative Preference Optimization for Better Preference Aligned Generation of Diffusion Models."**  
+  Fu-Yun Wang, **<u>Yunhao Shui</u>**, Jingtan Piao, Keqiang Sun, Hongsheng Li  
+  ICLR. 2025
 
-- Wangxuekuan, Yunhao Shui, Haoyu Zheng, Haoyu Yin, Yuqiu Huang, Junru Qiu, Feng Qiu, Keqiang Sun, Hongsheng Li, "Towards Rich-Motion Human Image Generation." Under Review. 2024
+- **"Towards Rich-Motion Human Image Generation."**  
+  Wangxuekuan, **<u>Yunhao Shui</u>**, Haoyu Zheng, Haoyu Yin, Yuqiu Huang, Junru Qiu, Feng Qiu, Keqiang Sun, Hongsheng Li  
+  Under Review. 2024
 
-- Sicheng Li, Zhixin Lai, Keqiang Sun, Xiaoshi Wu, Yunhao Shui, Feng Qiu, Haoran Xie, Kazunori Miyata, Hongsheng Li, "ECNet: Effective Controllable Text-to-Image Diffusion Models." Under Review. 2024
+- **"ECNet: Effective Controllable Text-to-Image Diffusion Models."**  
+  Sicheng Li, Zhixin Lai, Keqiang Sun, Xiaoshi Wu, **<u>Yunhao Shui</u>**, Feng Qiu, Haoran Xie, Kazunori Miyata, Hongsheng Li  
+  Under Review. 2024
 
-## Professional Experience
+## Internship Experience
 
 ### Zulution AI | AIGC Algorithm Engineer (2024.06 - Present)
 Research on Story-based Image Generation Algorithms

@@ -34,10 +34,15 @@ I am a second-year graduate student at Shanghai Jiao Tong University, School of 
   Sicheng Li, Zhixin Lai, Keqiang Sun, Xiaoshi Wu, **<u>Yunhao Shui</u>**, Feng Qiu, Haoran Xie, Kazunori Miyata, Hongsheng Li  
   *Under Review, 2024*
 
+# 🎉 Open Source Projects 
+
+- [SimpleArt: A RAG-based Character-Consistent Story Image Generation Model](https://github.com/xilanhua12138/SimpleArt)
+
 # 💼 Internship Experience
 
 - **Zulution AI** | *AIGC Algorithm Engineer* (2024.06 - Present)  
-  Developing advanced algorithms for story-based image generation, focusing on enhancing narrative coherence and visual quality in AI-generated content.
+  - Developing advanced algorithms for story-based image generation, focusing on enhancing narrative coherence and visual quality in AI-generated content.
+  - Developing video generation models with cinematic quality.
 
 - **ArcSoft** | *Computer Vision Algorithm Engineer* (2023.12 - 2024.03)  
   Researched and implemented preprocessing techniques for generative algorithms, improving output quality and computational efficiency.

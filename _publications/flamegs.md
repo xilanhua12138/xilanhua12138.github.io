@@ -1,7 +1,7 @@
 ---
 title: "FlameGS: Reconstruct Flame Light Field via Gaussian Splatting"
 collection: publications
-category: journals
+category: conferences
 permalink: /publication/flamegs
 excerpt: 'To address the time-consuming and computationally intensive issues of traditional ART algorithms for flame combustion diagnosis, inspired by flame simulation technology, we propose a novel representation method for flames. By modeling the luminous process of flames and utilizing 2D projection images for supervision, our experimental validation shows that this model achieves an average structural similarity index of 0.96 between actual images and predicted 2D projections, along with a Peak Signal-to-Noise Ratio of 39.05. Additionally, it saves approximately 34 times the computation time and about 10 times the memory compared to traditional algorithms.'
 date: 2024-12-24

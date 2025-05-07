@@ -40,13 +40,17 @@ I am a second-year graduate student at Shanghai Jiao Tong University, School of 
 
 # 💼 Internship Experience
 
-- **Zulution AI** | *AIGC Algorithm Engineer* (2024.06 - Present)  
-  Developing advanced algorithms for story-based image generation, focusing on enhancing narrative coherence and visual quality in AI-generated content. Developing video generation models with cinematic quality.
+- **Zulution AI** \| *AIGC Algorithm Engineer* (2024.06 - Present)  
+  - Developing advanced algorithms for story-based image generation, focusing on enhancing narrative coherence and visual quality in AI-generated content. 
+  
+  - Developing video generation models with cinematic quality.
 
-- **ArcSoft** | *Computer Vision Algorithm Engineer* (2023.12 - 2024.03)  
+  - Earned **SSP** return offer through internship conversion
+
+- **ArcSoft** \| *Computer Vision Algorithm Engineer* (2023.12 - 2024.03)  
   Researched and implemented preprocessing techniques for generative algorithms, improving output quality and computational efficiency.
 
-- **Deptrum** | *Computer Vision Algorithm Engineer* (2022.06 - 2022.09)  
+- **Deptrum** \| *Computer Vision Algorithm Engineer* (2022.06 - 2022.09)  
   Developed and optimized 3D facial reconstruction algorithms, enhancing accuracy and real-time performance.
 
 # 🏆 Awards and Honors

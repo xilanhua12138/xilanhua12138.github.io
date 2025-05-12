@@ -36,7 +36,8 @@ I am a second-year graduate student at Shanghai Jiao Tong University, School of 
 
 # 🎉 Open Source Projects 
 
-- [SimpleArt: A RAG-based Character-Consistent Story Image Generation Model](https://github.com/xilanhua12138/SimpleArt)
+- [RaCig: A RAG-based Character-Consistent Story Image Generation Model](https://github.com/ZulutionAI/RaCig)
+- [MoviiGen 1.1: Towards Cinematic-Quality Video Generative Models](https://github.com/ZulutionAI/MoviiGen1.1)
 
 # 💼 Internship Experience
 

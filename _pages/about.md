@@ -41,7 +41,7 @@ I am a second-year graduate student at Shanghai Jiao Tong University, School of 
 
 # 💼 Internship Experience
 
-- **Zulution AI** \| *AIGC Algorithm Engineer* (2024.06 - Present)  
+- **Zulution AI** \| *AIGC Algorithm Engineer* (2024.06 - 2025.05)  
   - Developing advanced algorithms for story-based image generation, focusing on enhancing narrative coherence and visual quality in AI-generated content. 
   
   - Developing video generation models with cinematic quality.

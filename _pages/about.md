@@ -9,7 +9,7 @@ redirect_from:
 
 # About Me
 
-I am a second-year graduate student at Shanghai Jiao Tong University, School of Mechanical Engineering, specializing in 3D reconstruction and image generation models. Currently, I am working as an Image Generation Algorithm Intern at Zulution AI, where I focus on developing cutting-edge solutions for story-based image generation.
+I am a second-year graduate student at Shanghai Jiao Tong University, School of Mechanical Engineering, specializing in generation models (image & video) and human preference alignment.
 
 # 🎓 Education
 

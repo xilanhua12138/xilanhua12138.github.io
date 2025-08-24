@@ -22,6 +22,10 @@ I am a second-year graduate student at Shanghai Jiao Tong University, School of 
 
 # 📝 Publications
 
+- **HPSv3: Towards Wide-Spectrum Human Preference**  
+   Yuhang Ma, **<u>Yunhao Shui</u>**, Yunhao Shui, Xiaoshi Wu, Keqiang Sun, Hongsheng Li
+  *International Conference on Computer Vision (ICCV), 2025*
+
 - **FlameGS: Reconstructing Flame Light Fields via Gaussian Splatting**  
   **<u>Yunhao Shui</u>**, Fuhao Zhang, Can Gao, Hao Xue, Zhiyin Ma, Gang Xuna, Xuesong Li  
   *International Conference on Signal Processing and Neural Network Applications (SPNNA), 2024*
@@ -36,10 +40,13 @@ I am a second-year graduate student at Shanghai Jiao Tong University, School of 
 
 # 🎉 Open Source Projects 
 
-- [RaCig: A RAG-based Character-Consistent Story Image Generation Model](https://github.com/ZulutionAI/RaCig)
+- [HPSv3: Towards Wide-Spectrum Human Preference](https://github.com/MizzenAI/HPSv3)
 - [MoviiGen 1.1: Towards Cinematic-Quality Video Generative Models](https://github.com/ZulutionAI/MoviiGen1.1)
+- [RaCig: A RAG-based Character-Consistent Story Image Generation Model](https://github.com/ZulutionAI/RaCig)
 
 # 💼 Internship Experience
+- **Hedra** \| *Algorithm Engineer* (2025.06 - 2025.07)  
+  - Developing large scale video generation model infrastructure. 
 
 - **Zulution AI** \| *AIGC Algorithm Engineer* (2024.06 - 2025.05)  
   - Developing advanced algorithms for story-based image generation, focusing on enhancing narrative coherence and visual quality in AI-generated content. 

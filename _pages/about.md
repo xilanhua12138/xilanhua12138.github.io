@@ -53,7 +53,7 @@ I am a second-year graduate student at Shanghai Jiao Tong University, School of 
   
   - Developing video generation models with cinematic quality.
 
-  - Earned **SSP** return offer through internship conversion
+  <!-- - Earned **SSP** return offer through internship conversion -->
 
 - **ArcSoft** \| *Computer Vision Algorithm Engineer* (2023.12 - 2024.03)  
   Researched and implemented preprocessing techniques for generative algorithms, improving output quality and computational efficiency.

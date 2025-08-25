@@ -23,8 +23,10 @@ I am a second-year graduate student at Shanghai Jiao Tong University, School of 
 # 📝 Publications
 
 - **HPSv3: Towards Wide-Spectrum Human Preference**  
-   Yuhang Ma/*, **<u>Yunhao Shui*</u>**, Yunhao Shui, Xiaoshi Wu, Keqiang Sun, Hongsheng Li
-  *International Conference on Computer Vision (ICCV), 2025*
+  Yuhang Ma\*, **<u>Yunhao Shui\*</u>**, Yunhao Shui, Xiaoshi Wu, Keqiang Sun, Hongsheng Li  
+    *International Conference on Computer Vision (ICCV), 2025*  
+    
+    \* Equal Contribution
 
 - **FlameGS: Reconstructing Flame Light Fields via Gaussian Splatting**  
   **<u>Yunhao Shui</u>**, Fuhao Zhang, Can Gao, Hao Xue, Zhiyin Ma, Gang Xuna, Xuesong Li  

@@ -22,7 +22,7 @@ repository               : "xilanhua12138/xilanhua12138.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile_photo.jpg"
+  avatar           : "profile_image.jpg"
   name             : "Yunhao Shui"
   pronouns         : # example: "she/her"  
   bio              : "Trust the process."
@@ -86,7 +86,7 @@ publication_category:
     title: 'Conference Papers'
 
 # Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : "profile_image.jpg" # filename of teaser fallback teaser image placed in /images/
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
@@ -137,7 +137,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : profile_image.jpg  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:

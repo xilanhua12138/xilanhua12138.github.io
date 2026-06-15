@@ -155,7 +155,7 @@ export const openSource: readonly Repo[] = [
 export const experiences: readonly Experience[] = [
   {
     org: "Hedra",
-    role: "Algorithm Engineer",
+    role: "Algorithm Engineer Intern",
     period: "2025.06 – 2025.07",
     points: ["Building large-scale video generation model infrastructure."],
   },
@@ -170,7 +170,7 @@ export const experiences: readonly Experience[] = [
   },
   {
     org: "ArcSoft",
-    role: "Computer Vision Algorithm Engineer",
+    role: "Computer Vision Algorithm Engineer Intern",
     period: "2023.12 – 2024.03",
     points: [
       "Preprocessing techniques for generative algorithms — improving output quality and compute efficiency.",
@@ -178,7 +178,7 @@ export const experiences: readonly Experience[] = [
   },
   {
     org: "Deptrum",
-    role: "Computer Vision Algorithm Engineer",
+    role: "Computer Vision Algorithm Engineer Intern",
     period: "2022.06 – 2022.09",
     points: [
       "3D facial reconstruction algorithms — accuracy and real-time performance.",

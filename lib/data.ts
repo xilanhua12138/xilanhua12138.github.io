@@ -126,9 +126,11 @@ export const publications: readonly Publication[] = [
   {
     title: "ECNet: Effective Controllable Text-to-Image Diffusion Models",
     authors:
-      "Sicheng Li, Zhixin Lai, Keqiang Sun, Xiaoshi Wu, Yunhao Shui, Feng Qiu, Haoran Xie, Kazunori Miyata, Hongsheng Li",
-    venue: "Under Review",
-    year: 2024,
+      "Sicheng Li, Zhixin Lai, Keqiang Sun, Xiaoshi Wu, Yunhao Shui, Feng Qiu, Haoran Xie, Kazunori Miyata",
+    venue: "Computational Visual Media",
+    year: 2025,
+    href: "https://arxiv.org/abs/2403.18417",
+    hrefLabel: "arXiv",
   },
 ] as const;
 

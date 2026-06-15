@@ -8,6 +8,7 @@ import { GithubGraph } from "@/components/GithubGraph";
 import { Experience } from "@/components/Experience";
 import { Education } from "@/components/Education";
 import { Awards } from "@/components/Awards";
+import { VisitorMap } from "@/components/VisitorMap";
 import { Footer } from "@/components/Footer";
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
         <Experience />
         <Education />
         <Awards />
+        <VisitorMap />
         <Footer />
       </main>
     </>

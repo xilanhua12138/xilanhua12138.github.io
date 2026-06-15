@@ -36,6 +36,7 @@ export interface Experience {
   readonly role: string;
   readonly period: string;
   readonly points: readonly string[];
+  readonly logo?: string;
 }
 
 export interface Education {
@@ -154,10 +155,18 @@ export const openSource: readonly Repo[] = [
 
 export const experiences: readonly Experience[] = [
   {
+    org: "MizzenAI",
+    role: "Algorithm Lead",
+    period: "2025.07 – Present",
+    points: [],
+    logo: "/logos/mizzen.png",
+  },
+  {
     org: "Hedra",
     role: "Algorithm Engineer Intern",
     period: "2025.06 – 2025.07",
     points: ["Building large-scale video generation model infrastructure."],
+    logo: "/logos/hedra.png",
   },
   {
     org: "Zulution AI",
@@ -167,6 +176,7 @@ export const experiences: readonly Experience[] = [
       "Advanced algorithms for story-based image generation — narrative coherence and visual quality.",
       "Cinematic-quality video generation models.",
     ],
+    logo: "/logos/zulution.png",
   },
   {
     org: "ArcSoft",
@@ -175,6 +185,7 @@ export const experiences: readonly Experience[] = [
     points: [
       "Preprocessing techniques for generative algorithms — improving output quality and compute efficiency.",
     ],
+    logo: "/logos/arcsoft.png",
   },
   {
     org: "Deptrum",
@@ -183,6 +194,7 @@ export const experiences: readonly Experience[] = [
     points: [
       "3D facial reconstruction algorithms — accuracy and real-time performance.",
     ],
+    logo: "/logos/deptrum.png",
   },
 ] as const;
 

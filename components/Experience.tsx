@@ -7,32 +7,52 @@ import { ChevronDown } from "./Icons";
 
 function Row({ e }: { e: Exp }) {
   const [open, setOpen] = useState(false);
+  const expandable = e.points.length > 0;
   return (
     <div>
       <button
         type="button"
-        onClick={() => setOpen((o) => !o)}
-        aria-expanded={open}
-        className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left"
+        onClick={() => expandable && setOpen((o) => !o)}
+        aria-expanded={expandable ? open : undefined}
+        className={`flex w-full items-center justify-between gap-4 px-5 py-4 text-left ${
+          expandable ? "" : "cursor-default"
+        }`}
       >
-        <span className="min-w-0">
-          <span className="block text-[0.95rem] font-medium text-fg">
-            {e.org}
+        <span className="flex min-w-0 items-center gap-3">
+          {e.logo ? (
+            <span className="flex h-9 w-9 shrink-0 items-center justify-center overflow-hidden rounded-md bg-white ring-1 ring-line">
+              <img
+                src={e.logo}
+                alt={`${e.org} logo`}
+                className="h-7 w-7 object-contain"
+              />
+            </span>
+          ) : null}
+          <span className="min-w-0">
+            <span className="block text-[0.95rem] font-medium text-fg">
+              {e.org}
+            </span>
+            <span className="block text-[0.85rem] text-muted">{e.role}</span>
           </span>
-          <span className="block text-[0.85rem] text-muted">{e.role}</span>
         </span>
         <span className="flex shrink-0 items-center gap-3">
-          <span className="hidden text-[0.8rem] text-muted sm:inline">
+          <span
+            className={`text-[0.8rem] text-muted ${
+              expandable ? "hidden sm:inline" : ""
+            }`}
+          >
             {e.period}
           </span>
-          <ChevronDown
-            className={`h-4 w-4 text-muted transition-transform ${
-              open ? "rotate-180" : ""
-            }`}
-          />
+          {expandable ? (
+            <ChevronDown
+              className={`h-4 w-4 text-muted transition-transform ${
+                open ? "rotate-180" : ""
+              }`}
+            />
+          ) : null}
         </span>
       </button>
-      {open ? (
+      {open && expandable ? (
         <ul className="space-y-1.5 px-5 pb-4 text-[0.85rem] leading-relaxed text-muted">
           <li className="text-[0.8rem] sm:hidden">{e.period}</li>
           {e.points.map((p, i) => (

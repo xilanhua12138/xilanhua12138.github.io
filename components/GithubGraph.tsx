@@ -1,7 +1,9 @@
 import { githubUsername } from "@/lib/data";
 import { Section, Em } from "./Section";
 
-// GitHub 贡献热力图。用 ghchart 生成灰阶图（贴合极简中性灰，不用默认绿）。
+// GitHub 贡献热力图。用自托管 SVG（GitHub 同款五档绿 + 月份/星期标签），
+// 数据由 scripts/generate-github-activity.mjs 从本人 viewer 贡献日历生成（含私有）。
+// 不再外链 ghchart：避免第三方缓存返回陈旧/稀疏数据。亮暗各一张按主题切换。
 export function GithubGraph() {
   return (
     <Section
@@ -19,9 +21,16 @@ export function GithubGraph() {
       >
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src={`https://ghchart.rshah.org/666666/${githubUsername}`}
+          src="/github-activity-light.svg"
           alt={`@${githubUsername} GitHub contribution graph`}
-          className="w-full dark:opacity-90 dark:invert"
+          className="w-full dark:hidden"
+          loading="lazy"
+        />
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/github-activity-dark.svg"
+          alt={`@${githubUsername} GitHub contribution graph`}
+          className="hidden w-full dark:block"
           loading="lazy"
         />
       </a>

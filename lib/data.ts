@@ -47,7 +47,7 @@ export interface Education {
 
 export const profile = {
   name: "Yunhao Shui",
-  nameZh: "水云浩",
+  nameZh: "税昀昊",
   title: "M.Eng. @ SJTU · Generative Models & Preference Alignment",
   tagline:
     "I build and study image & video generative models, human preference alignment, and 3D reconstruction — turning research ideas into things that run.",

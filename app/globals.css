@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== 主题 token（提炼自参考站真实 CSS 变量，刻意克制的中性灰系统）===== */
+:root {
+  --bg: #f7f7f9;
+  --card-bg: #ebebeb;
+  --card-border: #e0e0e0;
+  --foreground: #101113;
+  --foreground-muted: #4a4a4a;
+}
+
+.dark {
+  --bg: #0a0a0a;
+  --card-bg: #1e1e1e;
+  --card-border: #333333;
+  --foreground: #ededed;
+  --foreground-muted: #b3b3b3;
+}
+
+html {
+  background: var(--bg);
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--foreground);
+  font-family: var(--font-inter-tight), "Inter Tight", "Helvetica Neue",
+    system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* 主题切换时颜色平滑过渡 */
+body,
+body * {
+  transition: background-color 0.25s ease, border-color 0.25s ease,
+    color 0.25s ease;
+}
+
+/* 细滚动条，贴合极简风 */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--card-border);
+  border-radius: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::selection {
+  background: var(--foreground);
+  color: var(--bg);
+}

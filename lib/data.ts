@@ -42,6 +42,7 @@ export interface Experience {
 
 export interface ExperienceShowcaseMedia {
   readonly src: string;
+  readonly darkSrc?: string;
   readonly reducedMotionSrc?: string;
   readonly alt: string;
   readonly width: number;
@@ -176,6 +177,22 @@ export const experiences: readonly Experience[] = [
     period: "2025.07 - Present",
     points: [],
     logo: "/logos/mizzen.png",
+    showcase: [
+      {
+        title: "Mizzen Insight",
+        description: "AI-powered user interview platform",
+        href: "https://mizzen.top",
+        media: [
+          {
+            src: "/experience/mizzen/homepage-light.png",
+            darkSrc: "/experience/mizzen/homepage-dark.png",
+            alt: "Mizzen Insight homepage for its AI-powered user interview platform",
+            width: 1440,
+            height: 640,
+          },
+        ],
+      },
+    ],
   },
   {
     org: "Hedra",

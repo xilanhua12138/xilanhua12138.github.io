@@ -6,9 +6,15 @@ import { experiences, type Experience as Exp } from "@/lib/data";
 import { Section, Em } from "./Section";
 import { ChevronDown } from "./Icons";
 
-function Showcase({ items }: { items: NonNullable<Exp["showcase"]> }) {
+function Showcase({
+  items,
+  label,
+}: {
+  items: NonNullable<Exp["showcase"]>;
+  label: string;
+}) {
   return (
-    <div className="mt-4 space-y-3" aria-label="Selected Zulution AI work">
+    <div className="mt-4 space-y-3" aria-label={`${label} showcase`}>
       {items.map((item) => (
         <a
           key={item.title}
@@ -16,7 +22,7 @@ function Showcase({ items }: { items: NonNullable<Exp["showcase"]> }) {
           target="_blank"
           rel="noreferrer"
           className="group block overflow-hidden rounded-card border border-line bg-card transition-[transform,border-color,box-shadow] duration-200 ease-smooth hover:-translate-y-0.5 hover:border-fg/20 hover:shadow-soft focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-fg motion-reduce:transform-none motion-reduce:transition-none"
-          aria-label={`Open the ${item.title} project`}
+          aria-label={`Open ${item.title}`}
         >
           <span
             className={`block overflow-hidden ${
@@ -32,9 +38,23 @@ function Showcase({ items }: { items: NonNullable<Exp["showcase"]> }) {
                   height={media.height}
                   unoptimized
                   className={`block h-auto w-full transition-transform duration-300 ease-smooth group-hover:scale-[1.015] motion-reduce:transform-none motion-reduce:transition-none ${
+                    media.darkSrc ? "dark:hidden" : ""
+                  } ${
                     media.reducedMotionSrc ? "motion-reduce:hidden" : ""
                   }`}
                 />
+                {media.darkSrc ? (
+                  <Image
+                    src={media.darkSrc}
+                    alt={media.alt}
+                    width={media.width}
+                    height={media.height}
+                    unoptimized
+                    className={`hidden h-auto w-full transition-transform duration-300 ease-smooth group-hover:scale-[1.015] dark:block motion-reduce:transform-none motion-reduce:transition-none ${
+                      media.reducedMotionSrc ? "motion-reduce:hidden" : ""
+                    }`}
+                  />
+                ) : null}
                 {media.reducedMotionSrc ? (
                   <Image
                     src={media.reducedMotionSrc}
@@ -64,7 +84,7 @@ function Showcase({ items }: { items: NonNullable<Exp["showcase"]> }) {
 
 function Row({ e }: { e: Exp }) {
   const [open, setOpen] = useState(false);
-  const expandable = e.points.length > 0;
+  const expandable = e.points.length > 0 || Boolean(e.showcase?.length);
   return (
     <div>
       <button
@@ -120,7 +140,7 @@ function Row({ e }: { e: Exp }) {
               </li>
             ))}
           </ul>
-          {e.showcase ? <Showcase items={e.showcase} /> : null}
+          {e.showcase ? <Showcase items={e.showcase} label={e.org} /> : null}
         </div>
       ) : null}
     </div>

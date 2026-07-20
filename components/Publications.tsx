@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { publications } from "@/lib/data";
 import { Section, Em } from "./Section";
 import { ArrowUpRight } from "./Icons";
@@ -34,32 +35,47 @@ export function Publications() {
     >
       <div className="flex flex-col gap-3">
         {publications.map((p) => (
-          <article key={p.title} className="rounded-card border border-line p-5">
-            <div className="flex items-start justify-between gap-4">
-              <h3 className="text-[0.95rem] font-semibold leading-snug text-fg">
-                {p.title}
-              </h3>
-              <span className="shrink-0 rounded-pill bg-card px-2.5 py-1 text-xs font-medium text-muted">
-                {p.venue} {p.year}
-              </span>
+          <article
+            key={p.title}
+            className="overflow-hidden rounded-card border border-line sm:grid sm:grid-cols-[42%_58%]"
+          >
+            <div className="relative aspect-[2/1] overflow-hidden border-b border-line bg-white sm:aspect-auto sm:min-h-full sm:border-b-0 sm:border-r">
+              <Image
+                src={p.teaser.src}
+                alt={p.teaser.alt}
+                width={p.teaser.width}
+                height={p.teaser.height}
+                sizes="(min-width: 640px) 270px, calc(100vw - 42px)"
+                className="absolute inset-0 h-full w-full object-contain"
+              />
             </div>
-            <p className="mt-2 text-[0.85rem] leading-relaxed text-muted">
-              <Authors text={p.authors} />
-            </p>
-            {p.note ? (
-              <p className="mt-1 text-xs italic text-muted">{p.note}</p>
-            ) : null}
-            {p.href ? (
-              <a
-                href={p.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-3 inline-flex items-center gap-1 text-[0.8rem] font-medium text-fg hover:opacity-70"
-              >
-                {p.hrefLabel ?? "Link"}
-                <ArrowUpRight className="h-3.5 w-3.5" />
-              </a>
-            ) : null}
+            <div className="p-5">
+              <div className="flex flex-col-reverse items-start gap-2 sm:flex-row sm:justify-between sm:gap-4">
+                <h3 className="text-[0.95rem] font-semibold leading-snug text-fg">
+                  {p.title}
+                </h3>
+                <span className="shrink-0 rounded-pill bg-card px-2.5 py-1 text-xs font-medium text-muted">
+                  {p.venue} {p.year}
+                </span>
+              </div>
+              <p className="mt-2 text-[0.85rem] leading-relaxed text-muted">
+                <Authors text={p.authors} />
+              </p>
+              {p.note ? (
+                <p className="mt-1 text-xs italic text-muted">{p.note}</p>
+              ) : null}
+              {p.href ? (
+                <a
+                  href={p.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-3 inline-flex items-center gap-1 text-[0.8rem] font-medium text-fg hover:opacity-70"
+                >
+                  {p.hrefLabel ?? "Link"}
+                  <ArrowUpRight className="h-3.5 w-3.5" />
+                </a>
+              ) : null}
+            </div>
           </article>
         ))}
       </div>

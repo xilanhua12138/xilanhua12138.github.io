@@ -20,6 +20,12 @@ export interface Publication {
   readonly authors: string; // "Yunhao Shui" 会在组件里自动高亮
   readonly venue: string;
   readonly year: number;
+  readonly teaser: {
+    readonly src: string;
+    readonly alt: string;
+    readonly width: number;
+    readonly height: number;
+  };
   readonly note?: string; // e.g. "Equal contribution"
   readonly href?: string;
   readonly hrefLabel?: string;
@@ -119,6 +125,12 @@ export const publications: readonly Publication[] = [
       "Yuhang Ma*, Yunhao Shui*, Xiaoshi Wu, Keqiang Sun, Hongsheng Li",
     venue: "ICCV",
     year: 2025,
+    teaser: {
+      src: "/publications/hpsv3-teaser.webp",
+      alt: "Generated and real image examples ordered by HPSv3 preference score",
+      width: 1400,
+      height: 640,
+    },
     note: "* Equal contribution",
     href: "https://github.com/MizzenAI/HPSv3",
     hrefLabel: "Code",
@@ -129,6 +141,12 @@ export const publications: readonly Publication[] = [
     authors: "Fu-Yun Wang, Yunhao Shui, Jingtan Piao, Keqiang Sun, Hongsheng Li",
     venue: "ICLR",
     year: 2025,
+    teaser: {
+      src: "/publications/diffusion-npo-teaser.webp",
+      alt: "Image generations compared without and with Negative Preference Optimization",
+      width: 1400,
+      height: 720,
+    },
     href: "https://openreview.net/pdf?id=iJi7nz5Cxc",
     hrefLabel: "Paper",
   },
@@ -138,6 +156,12 @@ export const publications: readonly Publication[] = [
       "Yunhao Shui, Fuhao Zhang, Can Gao, Hao Xue, Zhiyin Ma, Gang Xun, Xuesong Li",
     venue: "SPNNA",
     year: 2024,
+    teaser: {
+      src: "/publications/flamegs-teaser.webp",
+      alt: "FlameGS pipeline from ray tracing initialization to 3D Gaussian rendering and reprojection loss",
+      width: 1040,
+      height: 320,
+    },
     href: "https://arxiv.org/abs/2412.19841",
     hrefLabel: "arXiv",
   },
@@ -147,6 +171,12 @@ export const publications: readonly Publication[] = [
       "Sicheng Li, Zhixin Lai, Keqiang Sun, Xiaoshi Wu, Yunhao Shui, Feng Qiu, Haoran Xie, Kazunori Miyata",
     venue: "Computational Visual Media",
     year: 2025,
+    teaser: {
+      src: "/publications/ecnet-teaser.webp",
+      alt: "ECNet results generated from skeleton, facial landmark, and sketch conditions",
+      width: 1400,
+      height: 758,
+    },
     href: "https://arxiv.org/abs/2403.18417",
     hrefLabel: "arXiv",
   },

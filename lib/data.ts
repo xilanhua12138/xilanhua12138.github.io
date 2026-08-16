@@ -72,12 +72,12 @@ export interface Education {
 export const profile = {
   name: "Yunhao Shui",
   nameZh: "税昀昊",
-  title: "M.Eng. @ SJTU · Generative Models & Preference Alignment",
+  title: "AI Researcher & Engineer · Generative Models & Preference Alignment",
   tagline:
     "I build and study image & video generative models, human preference alignment, and 3D reconstruction, turning research ideas into things that run.",
   motto: "Trust the process.",
   location: "Shanghai, China",
-  email: "xilanhua12138@sjtu.edu.cn",
+  email: "xilanhua12138@gmail.com",
 } as const;
 
 export const socials: readonly Social[] = [
@@ -93,7 +93,7 @@ export const socials: readonly Social[] = [
     href: "https://www.xiaohongshu.com/user/profile/5fe19a50000000000101ce38",
     icon: "xiaohongshu",
   },
-  { label: "Email", href: "mailto:xilanhua12138@sjtu.edu.cn", icon: "mail" },
+  { label: "Email", href: `mailto:${profile.email}`, icon: "mail" },
   { label: "CV", href: "/cv.pdf", icon: "file" },
 ] as const;
 
@@ -301,13 +301,13 @@ export const experiences: readonly Experience[] = [
 export const education: readonly Education[] = [
   {
     school: "Shanghai Jiao Tong University",
-    degree: "M.Eng., Mechanical Engineering",
+    degree: "Master's Degree",
     period: "2023.09 - 2026.03",
-    detail: "Image generative models & 3D flow-field reconstruction",
+    detail: "Generative models, preference alignment & 3D vision",
   },
   {
     school: "Shanghai Jiao Tong University",
-    degree: "B.Eng., Mechanical Engineering",
+    degree: "Bachelor's Degree",
     period: "2019.09 - 2023.09",
   },
 ] as const;

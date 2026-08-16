@@ -21,7 +21,10 @@ export const metadata: Metadata = {
     images: ["/profile.jpg"],
     type: "website",
   },
-  icons: { icon: "/profile.jpg" },
+  icons: {
+    icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
+    shortcut: "/favicon.svg",
+  },
 };
 
 // 在首屏绘制前应用主题，避免深色模式闪烁

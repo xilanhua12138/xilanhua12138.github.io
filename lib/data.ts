@@ -72,6 +72,9 @@ export interface Education {
 export const profile = {
   name: "Yunhao Shui",
   nameZh: "税昀昊",
+  alias: "shuiyunhao",
+  url: "https://shuiyunhao.com/",
+  bioZh: "我研究图像与视频生成、人类偏好对齐和三维重建。这里收录了我的论文、开源项目和工作经历。",
   title: "AI Researcher & Engineer · Generative Models & Preference Alignment",
   tagline:
     "I build and study image & video generative models, human preference alignment, and 3D reconstruction, turning research ideas into things that run.",

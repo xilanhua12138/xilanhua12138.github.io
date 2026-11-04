@@ -16,7 +16,7 @@ export function Hero() {
 
       <h1 className="mt-5 text-[1.35rem] font-bold leading-tight tracking-[-0.03em] text-fg">
         {profile.name}
-        <span className="ml-2 align-middle text-base font-normal text-muted">
+        <span lang="zh-CN" className="ml-2 align-middle text-base font-normal text-muted">
           {profile.nameZh}
         </span>
       </h1>
@@ -25,6 +25,10 @@ export function Hero() {
 
       <p className="mx-auto mt-5 max-w-[34rem] text-[1.1rem] font-light leading-relaxed text-fg">
         {profile.tagline}
+      </p>
+
+      <p lang="zh-CN" className="mx-auto mt-3 max-w-[34rem] text-sm leading-relaxed text-muted">
+        我是{profile.nameZh}（{profile.name}），也用 {profile.alias} 这个名字。{profile.bioZh}
       </p>
 
       <p className="mt-3 text-sm text-muted">{profile.motto}</p>

@@ -11,13 +11,18 @@ const interTight = Inter_Tight({
   display: "swap",
 });
 
+const title = `${profile.nameZh}（${profile.name}）｜个人主页`;
+const description = `${profile.nameZh}（${profile.name}，${profile.alias}）的个人主页。${profile.bioZh}`;
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://xilanhua12138.github.io"),
-  title: `${profile.name} · ${profile.title}`,
-  description: profile.tagline,
+  metadataBase: new URL(profile.url),
+  title,
+  description,
+  alternates: { canonical: profile.url },
   openGraph: {
-    title: profile.name,
-    description: profile.tagline,
+    title,
+    description,
+    url: profile.url,
     images: ["/profile.jpg"],
     type: "website",
   },

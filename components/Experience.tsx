@@ -110,6 +110,9 @@ function Row({ e }: { e: Exp }) {
               {e.org}
             </span>
             <span className="block text-[0.85rem] text-muted">{e.role}</span>
+            {e.researchFocus && (
+              <span className="mt-1 block text-[0.8rem] text-muted">{e.researchFocus}</span>
+            )}
           </span>
         </span>
         <span className="flex shrink-0 items-center gap-3">

@@ -38,6 +38,7 @@ export interface Repo {
 }
 
 export interface Experience {
+  readonly researchFocus?: string;
   readonly org: string;
   readonly role: string;
   readonly period: string;
@@ -206,6 +207,7 @@ export const openSource: readonly Repo[] = [
 export const experiences: readonly Experience[] = [
   {
     org: "MizzenAI",
+    researchFocus: "Voice Agents · User Simulation · Agent Evaluation",
     role: "Algorithm Lead",
     period: "2025.07 - Present",
     points: [],

@@ -28,7 +28,7 @@ export function Hero() {
       </p>
 
       <p lang="zh-CN" className="mx-auto mt-3 max-w-[34rem] text-sm leading-relaxed text-muted">
-        我是{profile.nameZh}（{profile.name}），也用 {profile.alias} 这个名字。{profile.bioZh}
+        {profile.bioZh}
       </p>
 
       <p className="mt-3 text-sm text-muted">{profile.motto}</p>

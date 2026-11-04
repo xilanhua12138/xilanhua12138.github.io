@@ -11,8 +11,8 @@ const interTight = Inter_Tight({
   display: "swap",
 });
 
-const title = `${profile.nameZh}（${profile.name}）｜个人主页`;
-const description = `${profile.nameZh}（${profile.name}，${profile.alias}）的个人主页。${profile.bioZh}`;
+const title = `${profile.name} (${profile.nameZh}) · ${profile.title}`;
+const description = `Research and projects by ${profile.name} (${profile.nameZh}, ${profile.alias}) on image and video generation, human preference alignment, and 3D reconstruction.`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(profile.url),

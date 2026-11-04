@@ -75,10 +75,10 @@ export const profile = {
   nameZh: "税昀昊",
   alias: "shuiyunhao",
   url: "https://shuiyunhao.com/",
-  bioZh: "我在 Mizzen 开发做用户访谈的语音智能体，研究如何模拟受访者的回答，以及怎样评估智能体问得好不好。我也研究图像与视频生成、人类偏好对齐和三维重建。",
+  bioZh: "我研究图像与视频生成、人类偏好对齐和三维重建。在 Mizzen，我开发用于用户访谈的语音智能体，评估它们能否根据受访者的回答提出恰当的追问。这里收录了我的论文、开源项目和工作经历。",
   title: "AI Researcher & Engineer · Generative Models & Preference Alignment",
   tagline:
-    "At Mizzen, I build voice agents for research interviews, model how participants respond, and evaluate the questions agents ask. I also work on image and video generation, human preference alignment, and 3D reconstruction.",
+    "I build and study image & video generative models, human preference alignment, and 3D reconstruction, turning research ideas into things that run. At Mizzen, I build voice agents for research interviews and evaluate how well they follow up on participants’ answers.",
   motto: "Trust the process.",
   location: "Shanghai, China",
   email: "xilanhua12138@gmail.com",
